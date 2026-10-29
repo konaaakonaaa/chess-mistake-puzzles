@@ -1,0 +1,5 @@
+Описание для поля "About" на GitHub:
+Turn your own Lichess mistakes into personal chess puzzles. Stockfish finds your blunders, a terminal trainer drills them with spaced repetition.
+
+Topics (теги):
+chess lichess lichess-api stockfish python-chess puzzles spaced-repetition chess-training cli python

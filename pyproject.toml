@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chess-mistake-puzzles"
+version = "0.1.0"
+description = "Turn your own Lichess mistakes into personal chess puzzles with spaced repetition"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["python-chess>=1.10", "requests>=2.31", "rich>=13.0"]
+
+[project.scripts]
+mistake-puzzles = "mistake_puzzles.cli:main"
+
+[tool.setuptools]
+packages = ["mistake_puzzles"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
